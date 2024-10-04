@@ -1,6 +1,4 @@
 static/
-dist/
-lib/
 build/
 node_modules
 website/src/docs/
@@ -9,3 +7,4 @@ npm-debug.log
 yarn-error.log
 .DS_Store
 meta/bundle-size-stats/
+pnpm-lock.yaml

@@ -35,6 +35,10 @@ const convertFromRawToDraftState = require('convertFromRawToDraftState');
 const generateRandomKey = require('generateRandomKey');
 const getDefaultKeyBinding = require('getDefaultKeyBinding');
 const getVisibleSelectionRect = require('getVisibleSelectionRect');
+const Immutable = require('immutable');
+
+// See more: https://github.com/facebook/draft-js/issues/950
+Immutable.Iterable.noLengthWarning = true;
 
 const DraftPublic = {
   Editor: DraftEditor,
